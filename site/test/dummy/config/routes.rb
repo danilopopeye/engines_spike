@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount Site::Engine => "/site"
+  mount Site::Engine => '/'
 end
